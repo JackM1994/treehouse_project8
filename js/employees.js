@@ -1,5 +1,5 @@
 const employeeList = document.getElementById('employeeList');
-const url = 'https://randomuser.me/api/?results=12';
+const url = 'https://randomuser.me/api/?results=12&nat=ie,us,gb';
 const list = [];
 let index = 0;
 const modal = document.createElement('div');
